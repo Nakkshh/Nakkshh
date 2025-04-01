@@ -1,7 +1,9 @@
 
 <h1 align="center">Hi 👋, I'm Nakshatra Jain</h1>
 <h3 align="center">A Cloud & DevOps Enthusiast | MERN Full Stack Developer | AI & Machine Learning Explorer 🚀</h3>
-<img align="right" alt="Coding" width="400" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeW1wOXR2c2ducWI3ZnlmbzNkMG53dzZtbWhhc3BrNTBnOTZ0cWoxcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1irGVhlfeAXnLgjWA4/giphy.gif">
+<p align="center">
+  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeW1wOXR2c2ducWI3ZnlmbzNkMG53dzZtbWhhc3BrNTBnOTZ0cWoxcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1irGVhlfeAXnLgjWA4/giphy.gif" alt="Coding" width="400"/>
+</p>
 
 - 🌱 I’m currently learning **Cloud Computing (AWS, GCP, Azure) | DevOps (Kubernetes, Terraform, CI/CD) | Machine Learning for Web Apps**
 
