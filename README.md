@@ -267,10 +267,10 @@ And somewhere between all of that, I occasionally convince myself that turning a
 <br>
 
 <!-- ================= GITHUB STATS ================= -->
-<h2 align="center">📊 Gɪᴛʜᴜʙ Sᴛᴀᴛs 📊</h2>
+<h2 align="center"> Gɪᴛʜᴜʙ Sᴛᴀᴛs </h2>
 <table width="100%">
   <tr>
-    <td width="50%">
+    <td width="50%" align="center" valign="middle">
       <h3 align="center"><strong>Sᴛʀᴇᴀᴋ Sᴛᴀᴛs</strong></h3>
       <p align="center">
         <a href="https://github.com/Nakkshh">
@@ -278,10 +278,12 @@ And somewhere between all of that, I occasionally convince myself that turning a
         </a>
       </p>
     </td>
-    <td width="50%">
-      <h3 align="center"><strong>Sᴇʟғ-Hᴏsᴛᴇᴅ Mᴇᴛʀɪᴄs</strong></h3>
+    <td width="50%" align="center" valign="middle">
+      <h3 align="center"><strong>Gɪᴛʜᴜʙ Sᴛᴀᴛs</strong></h3>
       <p align="center">
-        <img align="center" src="./metrics.svg" alt="Metrics" width="100%" />
+        <a href="https://github.com/Nakkshh">
+          <img align="center" src="https://github-readme-stats-fast.vercel.app/api?username=Nakkshh&count_private=true&show_icons=true&hide_border=true&bg_color=060a0d&title_color=5eead4&icon_color=38bdf8&text_color=8b9bb0&ring_color=2dd4bf&rank_icon=github" alt="GitHub Stats" />
+        </a>
       </p>
     </td>
   </tr>
