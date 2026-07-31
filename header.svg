@@ -1,0 +1,183 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="896"
+  height="288"
+  viewBox="0 0 896 288"
+  fill="none"
+>
+  <style>
+    * {
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+
+    .animate-ping {
+      animation: ping 1.8s cubic-bezier(0, 0, 0.2, 1) infinite;
+    }
+
+    .animate-fade-in {
+      animation: fade-in 0.7s cubic-bezier(0, 0, 0.2, 1) forwards;
+    }
+
+    .animate-fade-in-bottom {
+      animation: fade-in-bottom 0.7s cubic-bezier(0, 0, 0.2, 1) forwards;
+    }
+
+    .animate-fade-in-right {
+      animation: fade-in-right 0.7s cubic-bezier(0, 0, 0.2, 1) forwards;
+    }
+
+    .title { opacity: 0; animation-delay: 0.25s; }
+    .subtitle { opacity: 0; animation-delay: 0.55s; }
+    .tags { opacity: 0; animation-delay: 0.85s; }
+    .status { opacity: 0; animation-delay: 1.2s; }
+    .status__dot { opacity: 0; animation-delay: 1.5s; }
+
+    @keyframes ping {
+      75%, 100% { transform: scale(2.2); opacity: 0; }
+    }
+    @keyframes fade-in {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes fade-in-bottom {
+      from { opacity: 0; transform: translate3d(0, -16px, 0); }
+      to { opacity: 1; transform: translate3d(0, 0, 0); }
+    }
+    @keyframes fade-in-right {
+      from { opacity: 0; transform: translate3d(-16px, 0, 0); }
+      to { opacity: 1; transform: translate3d(0, 0, 0); }
+    }
+  </style>
+
+  <g clip-path="url(#roundedFrame)">
+    <!-- #region background -->
+    <rect width="896" height="288" fill="url(#bgGradient)" />
+
+    <!-- soft radial glow, bottom-left teal, top-right blue -->
+    <rect width="896" height="288" fill="url(#glowTeal)" />
+    <rect width="896" height="288" fill="url(#glowBlue)" />
+
+    <!-- faint grid, fades toward the edges -->
+    <mask id="gridMask" style="mask-type: alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="896" height="288">
+      <rect width="896" height="288" fill="url(#gridFade)" />
+    </mask>
+    <g mask="url(#gridMask)">
+      <path
+        d="M32.5 0V288M96.5 0V288M160.5 0V288M224.5 0V288M288.5 0V288M352.5 0V288M416.5 0V288M480.5 0V288M544.5 0V288M608.5 0V288M672.5 0V288M736.5 0V288M800.5 0V288M864.5 0V288M0 31.5H896M0 95.5H896M0 159.5H896M0 223.5H896"
+        stroke="#7dd3c0"
+        stroke-opacity="0.06"
+        stroke-dasharray="4 6"
+      />
+    </g>
+    <!-- #endregion -->
+
+    <!-- #region status pill -->
+    <g class="status animate-fade-in-right" transform="translate(0,0)">
+      <rect x="48" y="40" width="228" height="30" rx="15" fill="#ffffff" fill-opacity="0.04" stroke="#2dd4bf" stroke-opacity="0.35" />
+      <g class="status__dot animate-fade-in">
+        <circle cx="66" cy="55" r="5" fill="#2dd4bf" class="animate-ping" />
+        <circle cx="66" cy="55" r="3" fill="#5eead4" />
+      </g>
+      <text x="82" y="60" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" letter-spacing="1" fill="#9fb3c8">
+        FINAL-YEAR CS ENGINEER
+      </text>
+    </g>
+    <!-- #endregion -->
+
+    <!-- #region title -->
+    <g class="title animate-fade-in-bottom">
+      <text x="48" y="150" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="52" font-weight="800" letter-spacing="0.5" fill="url(#titleGradient)">
+        Hi, I'm Nakshatra Jain
+      </text>
+    </g>
+    <!-- #endregion -->
+
+    <!-- #region subtitle -->
+    <g class="subtitle animate-fade-in-bottom">
+      <text x="50" y="188" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="400" fill="#8b9bb0">
+        Backend &amp; Cloud Engineer &#183; building fast, well-tested systems at VIT Bhopal
+      </text>
+    </g>
+    <!-- #endregion -->
+
+    <!-- #region tag chips -->
+    <g class="tags animate-fade-in-right">
+      <g transform="translate(50,214)">
+        <rect width="60" height="30" rx="15" fill="#0d3b3a" fill-opacity="0.55" stroke="#2dd4bf" stroke-opacity="0.4" />
+        <text x="30" y="20" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="13" fill="#5eead4">Java</text>
+      </g>
+      <g transform="translate(120,214)">
+        <rect width="98" height="30" rx="15" fill="#0b2f45" fill-opacity="0.55" stroke="#38bdf8" stroke-opacity="0.4" />
+        <text x="49" y="20" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="13" fill="#7dd3fc">Spring Boot</text>
+      </g>
+      <g transform="translate(228,214)">
+        <rect width="64" height="30" rx="15" fill="#0d3b3a" fill-opacity="0.55" stroke="#2dd4bf" stroke-opacity="0.4" />
+        <text x="32" y="20" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="13" fill="#5eead4">Kafka</text>
+      </g>
+      <g transform="translate(302,214)">
+        <rect width="58" height="30" rx="15" fill="#0b2f45" fill-opacity="0.55" stroke="#38bdf8" stroke-opacity="0.4" />
+        <text x="29" y="20" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="13" fill="#7dd3fc">AWS</text>
+      </g>
+      <g transform="translate(370,214)">
+        <rect width="66" height="30" rx="15" fill="#0d3b3a" fill-opacity="0.55" stroke="#2dd4bf" stroke-opacity="0.4" />
+        <text x="33" y="20" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="13" fill="#5eead4">React</text>
+      </g>
+    </g>
+    <!-- #endregion -->
+
+    <!-- #region minimal mark, right side -->
+    <g class="animate-fade-in" style="animation-delay:0.4s; opacity:0;">
+      <circle cx="790" cy="144" r="70" fill="none" stroke="url(#ringGradient)" stroke-width="1.5" stroke-opacity="0.5" />
+      <circle cx="790" cy="144" r="46" fill="none" stroke="url(#ringGradient)" stroke-width="1" stroke-opacity="0.3" />
+      <text x="790" y="153" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="30" font-weight="700" fill="url(#markGradient)">&lt;/&gt;</text>
+    </g>
+    <!-- #endregion -->
+  </g>
+
+  <!-- frame border -->
+  <rect x="0.5" y="0.5" width="895" height="287" rx="31.5" fill="none" stroke="#1b2a33" />
+
+  <defs>
+    <linearGradient id="bgGradient" x1="448" y1="0" x2="448" y2="288" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0a1014" />
+      <stop offset="1" stop-color="#060a0d" />
+    </linearGradient>
+
+    <radialGradient id="glowTeal" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(120 300) rotate(-40) scale(420 260)">
+      <stop stop-color="#0f766e" stop-opacity="0.28" />
+      <stop offset="1" stop-color="#0f766e" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="glowBlue" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(820 -20) rotate(130) scale(420 300)">
+      <stop stop-color="#155e75" stop-opacity="0.30" />
+      <stop offset="1" stop-color="#155e75" stop-opacity="0" />
+    </radialGradient>
+
+    <linearGradient id="gridFade" x1="448" y1="0" x2="448" y2="288" gradientUnits="userSpaceOnUse">
+      <stop stop-color="white" stop-opacity="0" />
+      <stop offset="0.5" stop-color="white" />
+      <stop offset="1" stop-color="white" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="titleGradient" x1="48" y1="0" x2="620" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#e6fffa" />
+      <stop offset="0.45" stop-color="#5eead4" />
+      <stop offset="1" stop-color="#38bdf8" />
+    </linearGradient>
+
+    <linearGradient id="ringGradient" x1="720" y1="74" x2="860" y2="214" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2dd4bf" />
+      <stop offset="1" stop-color="#38bdf8" />
+    </linearGradient>
+
+    <linearGradient id="markGradient" x1="760" y1="120" x2="820" y2="170" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5eead4" />
+      <stop offset="1" stop-color="#7dd3fc" />
+    </linearGradient>
+
+    <clipPath id="roundedFrame">
+      <rect width="896" height="288" rx="32" fill="white" />
+    </clipPath>
+  </defs>
+</svg>
