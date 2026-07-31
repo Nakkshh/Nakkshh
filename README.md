@@ -34,7 +34,7 @@ And somewhere between all of that, I occasionally convince myself that turning a
 <!-- ================= 3D SKYLINE ================= -->
 ### 🌌 3D Contribution Skyline
 <div align="center">
-  <img src="./profile-3d-contrib/night-rainbow.svg" alt="3D Contribution Skyline" width="100%" />
+  <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Skyline" width="100%" />
 </div>
 
 <br>
