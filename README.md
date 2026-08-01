@@ -282,7 +282,7 @@ And somewhere between all of that, I occasionally convince myself that turning a
       <h3 align="center"><strong>Gɪᴛʜᴜʙ Sᴛᴀᴛs</strong></h3>
       <p align="center">
         <a href="https://github.com/Nakkshh">
-          <img align="center" src="https://github-readme-stats-fast.vercel.app/api?username=Nakkshh&count_private=true&show_icons=true&hide_border=true&bg_color=060a0d&title_color=5eead4&icon_color=38bdf8&text_color=8b9bb0&ring_color=2dd4bf&rank_icon=github" alt="GitHub Stats" />
+          <img align="center" src="https://github-stats-extended.vercel.app/api?username=Nakkshh&rank_icon=github&show_icons=true&include_all_commits=true&theme=transparent&hide_border=true&bg_color=060a0d&title_color=5eead4&icon_color=38bdf8&text_color=8b9bb0&ring_color=2dd4bf" alt="GitHub Stats" />
         </a>
       </p>
     </td>
